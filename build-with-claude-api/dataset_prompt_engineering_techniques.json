@@ -1,49 +1,50 @@
 [
   {
     "prompt_inputs": {
-      "height": "178 cm",
-      "weight": "68 kg",
+      "height": "180",
+      "weight": "72",
       "goal": "carbohydrate loading for marathon training with high caloric intake",
       "restrictions": "none"
     },
     "solution_criteria": [
-      "Meal plan contains 4-5 meals strategically timed around training windows",
-      "Total daily calories between 3000-3500 with carbohydrates comprising 60-65% of total intake",
-      "Includes pre-training, during-training, and post-training nutrition with appropriate timing and macronutrient composition"
+      "Meal plan totals 3000+ calories with carbohydrate emphasis (55-60% of total calories)",
+      "Includes pre-training, during-training, and post-training meals with appropriate timing",
+      "Compact format with 4-6 meals/snacks throughout the day",
+      "Realistic, practical meals suitable for a single athlete"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for single athlete",
-    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific timing around training windows"
+    "scenario": "Testing with a high-intensity endurance athlete (e.g., marathon runner) requiring 3000+ calories with specific carbohydrate-loading emphasis and timing around training sessions"
   },
   {
     "prompt_inputs": {
       "height": "180 cm",
       "weight": "85 kg",
-      "goal": "gain muscle",
+      "goal": "gain muscle and strength",
       "restrictions": "none"
     },
     "solution_criteria": [
-      "Meal plan spans 1 full day with at least 4 meals/snacks",
-      "Protein distributed across meals (minimum 25g per meal)",
-      "Includes pre-workout meal/snack and post-workout nutrition",
-      "Compact format with food items and approximate macros or portions"
+      "Meal plan covers 1 full day with 4-5 meals strategically timed around workout",
+      "Protein intake is 160-170g daily (approximately 1.9-2g per kg bodyweight)",
+      "Pre-workout and post-workout meals are clearly identified with appropriate macros for recovery",
+      "Plan is compact and concise (fits within 300 words)"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for single athlete",
-    "scenario": "Testing with a strength/power athlete (weightlifter) focusing on protein distribution across meals and pre/post-workout nutrition for muscle recovery"
+    "scenario": "Testing with a strength/power athlete (e.g., weightlifter) needing protein-focused macros with strategic meal timing around gym workouts and recovery windows"
   },
   {
     "prompt_inputs": {
-      "height": "165 cm",
-      "weight": "52 kg",
-      "goal": "maintain weight while optimizing performance and flexibility",
-      "restrictions": "vegetarian"
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "gain muscle",
+      "restrictions": "vegetarian, gluten-free"
     },
     "solution_criteria": [
-      "Meal plan contains exactly 3 meals covering a full day",
-      "Total daily calories align with lean athlete maintenance (approximately 1800-2000 kcal)",
-      "Each meal includes protein source suitable for vegetarian diet and muscle recovery",
-      "Plan emphasizes micronutrient-dense foods (iron, calcium, magnesium) critical for bone health and flexibility in gymnastics/dance"
+      "Meal plan covers all 3 meals for one day with vegetarian and gluten-free options",
+      "Provides adequate protein intake (approximately 1.6-2.2g per kg body weight) to support muscle gain",
+      "All meals use affordable, budget-friendly ingredients with estimated daily cost under $12",
+      "Includes caloric and macronutrient breakdown suitable for a 72kg athlete with muscle-building goals"
     ],
     "task_description": "Write a compact, concise 1 day meal plan for single athlete",
-    "scenario": "Testing with a sport that demands lean body composition (gymnast or dancer) balancing nutritional needs with caloric awareness and micronutrient density"
+    "scenario": "Testing with a budget-conscious athlete with dietary restrictions (e.g., vegetarian, gluten-free) to ensure the meal plan is both nutritionally complete and cost-effective while accommodating constraints"
   }
 ]
