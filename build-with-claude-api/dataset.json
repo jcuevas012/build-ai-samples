@@ -1,0 +1,34 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "optimize performance for marathon training with high carbohydrate intake and strategic meal timing around 2-hour morning run",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day with breakfast, pre-run fuel, post-run recovery meal, lunch, snacks, and dinner",
+      "Includes high carbohydrate content (approximately 8-10g per kg body weight) appropriate for endurance athlete",
+      "Specifies meal timing around the training session with pre-run and post-run nutrition strategy",
+      "Plan is compact and concise (suitable for single-page reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "82",
+      "goal": "gain muscle",
+      "restrictions": "vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all meals for one full day with specific times and portions",
+      "Provides high protein intake suitable for strength/power athlete (minimum 1.6g per kg bodyweight)",
+      "All meals are vegetarian with plant-based or dairy protein sources",
+      "Includes key micronutrients for weightlifters (iron, zinc, B12, magnesium)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) with dietary restrictions (vegetarian) requiring high protein alternatives and specific micronutrient considerations"
+  }
+]

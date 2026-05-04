@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "carbohydrate loading for marathon training with high caloric intake",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals strategically timed around training windows",
+      "Total daily calories between 3000-3500 with carbohydrates comprising 60-65% of total intake",
+      "Includes pre-training, during-training, and post-training nutrition with appropriate timing and macronutrient composition"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "gain muscle",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan spans 1 full day with at least 4 meals/snacks",
+      "Protein distributed across meals (minimum 25g per meal)",
+      "Includes pre-workout meal/snack and post-workout nutrition",
+      "Compact format with food items and approximate macros or portions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) focusing on protein distribution across meals and pre/post-workout nutrition for muscle recovery"
+  },
+  {
+    "prompt_inputs": {
+      "height": "165 cm",
+      "weight": "52 kg",
+      "goal": "maintain weight while optimizing performance and flexibility",
+      "restrictions": "vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 3 meals covering a full day",
+      "Total daily calories align with lean athlete maintenance (approximately 1800-2000 kcal)",
+      "Each meal includes protein source suitable for vegetarian diet and muscle recovery",
+      "Plan emphasizes micronutrient-dense foods (iron, calcium, magnesium) critical for bone health and flexibility in gymnastics/dance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for single athlete",
+    "scenario": "Testing with a sport that demands lean body composition (gymnast or dancer) balancing nutritional needs with caloric awareness and micronutrient density"
+  }
+]
